@@ -1,7 +1,6 @@
-/*
- */
 package edu.escuelaing.arem.squarenumber;
 
+import java.math.BigInteger;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,7 +17,7 @@ public class SquareNumberController {
 
     @GetMapping
     public @ResponseBody
-    long squareNumber(@RequestParam("value") long value) {
-        return value * value;
+    String squareNumber(@RequestParam("value") BigInteger value) {
+        return value.multiply(value).toString();
     }
 }
