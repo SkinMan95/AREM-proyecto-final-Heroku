@@ -18,7 +18,7 @@ public class SquareNumberController {
 
     @GetMapping
     public @ResponseBody
-    String squareNumber(@RequestParam("value") int value) {
-        return "" + (value * value);
+    long squareNumber(@RequestParam("value") long value) {
+        return value * value;
     }
 }
