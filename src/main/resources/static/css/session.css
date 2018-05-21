@@ -1,0 +1,132 @@
+/* {
+	border: 1px solid blue;
+}*/
+
+.body  {
+	/*border: 5px solid #990000;*/
+	padding: 50px;
+	font-family: sans-serif;
+        background-color: #ffffff;
+	/*background-image: url(../images/fondoCanvas.jpg);*/
+	position: relative;
+	margin: 20px;
+        /*border: 25px solid green;*/
+	box-shadow: 0 0 50px;
+        color: #1F618D;
+	/*0 0 0 10px hsl(0, 0%, 50%),
+	0 0 0 15px hsl(0, 0%, 60%),
+	0 0 0 20px hsl(0, 0%, 70%),
+	0 0 0 25px hsl(0, 0%, 80%),
+	0 0 0 30px hsl(0, 0%, 90%);*/
+}
+
+
+
+.myNameUser {
+	font-size: 50px;
+}
+
+.drawingCanvas {
+	margin-left: 20px;
+}
+
+.users h3 {
+	text-align: center;
+}
+
+.users, .right-header, .left-header, .menu{
+	display: inline-block;
+}
+
+.myNameUser, .myImageUser {
+	display: inline-block;
+	text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: #5DADE2;
+        
+        
+}
+
+.myImageUser {
+	vertical-align: middle;
+	margin: 0 10px 0 10px;
+}
+
+.header {
+	/*text-align: center;
+	height: 30%;
+	border: 2px dotted black;*/
+	margin-bottom: 30px;
+}
+
+.left-header {
+	/*text-align: center;*/
+	width: 40%;
+	height: 15%;
+	vertical-align: bottom;
+}
+
+.right-header {
+	text-align: center;
+	width: 40%;
+	vertical-align: middle;
+        
+	
+}
+
+.right-header img {
+	border: 2px solid black;
+	padding: 3px;
+	margin: 3px;
+}
+
+.toolsCanvas {
+	display: inline-block;
+	/*width: 35px;
+	/border: 2px solid black;*/
+	padding: 10px 15px 10px 15px;
+}
+
+.drawingCanvas {
+	display: inline-block;
+	width: 1115px;	
+	height: 445px;
+	border: 2px solid black;
+}
+
+.main {
+        
+	display: inline-flex;	
+}
+
+ul, span {
+	list-style-type: none;
+}
+
+.menu {
+	vertical-align: middle;
+        color: floralwhite;
+}
+
+.toolBtns {
+	display: list-item;
+	font-size: 32px;
+	padding: 7px 0 7px 0;
+        /*color: gray;*/
+}
+
+.toolBtns:hover {
+	border: 1px solid #282834;
+}
+
+.btnSelected {
+	/*background: white;*/
+	color: #5DADE2;
+}
+
+.menu a {
+	text-decoration: none;
+	font-family: Arial, Verdana;
+	
+}
