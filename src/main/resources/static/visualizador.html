@@ -1,15 +1,19 @@
+<meta charset="UTF-8"> 
 <html>
   <head>
+    <link href="/css/formulario.css" rel="stylesheet">
     <title>FactSolutions</title>
   </head>
   <body>
-  	<h1>Factura:</h1>
-
+    <div class="container">
+      <button><a href="time_load.html">Enviar</a></button>
+      <h1>Factura:</h1>
       <!--<iframe src="http://docs.google.com/gview?url=http://upgrade.com.mx/_docs/prueba.doc&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>-->
       <div id="XMLHolder"> </div>
       <link rel="stylesheet" type="text/css" href="XMLDisplay.css">
       <script type="text/javascript" src="XMLDisplay.js"></script>
       <script>LoadXML('XMLHolder', 'factura.xml')</script>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
